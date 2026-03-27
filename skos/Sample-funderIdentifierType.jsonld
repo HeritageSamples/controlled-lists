@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType",
+  "skos:prefLabel": "Funder Identifier Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType/isni",
+      "skos:prefLabel": "ISNI",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/funderIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType/grid",
+      "skos:prefLabel": "GRID",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/funderIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType/crossref-funder-id",
+      "skos:prefLabel": "Crossref Funder ID",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/funderIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType/ror",
+      "skos:prefLabel": "ROR",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/funderIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/funderIdentifierType/other",
+      "skos:prefLabel": "Other",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/funderIdentifierType"
+    }
+  ]
+}

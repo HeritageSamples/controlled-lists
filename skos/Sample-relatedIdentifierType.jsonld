@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType",
+  "skos:prefLabel": "Related Identifier Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/ark",
+      "skos:prefLabel": "ARK",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/arxiv",
+      "skos:prefLabel": "arXiv",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/bibcode",
+      "skos:prefLabel": "bibcode",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/doi",
+      "skos:prefLabel": "DOI",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/ean13",
+      "skos:prefLabel": "EAN13",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/eissn",
+      "skos:prefLabel": "EISSN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/handle",
+      "skos:prefLabel": "Handle",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/igsn",
+      "skos:prefLabel": "IGSN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/isbn",
+      "skos:prefLabel": "ISBN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/issn",
+      "skos:prefLabel": "ISSN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/istc",
+      "skos:prefLabel": "ISTC",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/lissn",
+      "skos:prefLabel": "LISSN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/lsid",
+      "skos:prefLabel": "LSID",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/pmid",
+      "skos:prefLabel": "PMID",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/purl",
+      "skos:prefLabel": "PURL",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/upc",
+      "skos:prefLabel": "UPC",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/url",
+      "skos:prefLabel": "URL",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/urn",
+      "skos:prefLabel": "URN",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType/w3id",
+      "skos:prefLabel": "w3id",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifierType"
+    }
+  ]
+}

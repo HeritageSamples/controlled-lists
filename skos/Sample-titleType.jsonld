@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/titleType",
+  "skos:prefLabel": "titleType",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/titleType/title",
+      "skos:prefLabel": "Title",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/titleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/titleType/alternativetitle",
+      "skos:prefLabel": "AlternativeTitle",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/titleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/titleType/subtitle",
+      "skos:prefLabel": "Subtitle",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/titleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/titleType/translatedtitle",
+      "skos:prefLabel": "TranslatedTitle",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/titleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/titleType/other",
+      "skos:prefLabel": "Other",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/titleType"
+    }
+  ]
+}

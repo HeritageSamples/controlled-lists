@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/HeritageObject/descriptionType",
+  "skos:prefLabel": "Description Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: HeritageObject v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/descriptionType/object-description",
+      "skos:prefLabel": "Object description",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/descriptionType/subject-description",
+      "skos:prefLabel": "Subject description",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/descriptionType/technical-description",
+      "skos:prefLabel": "Technical description",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/descriptionType/other",
+      "skos:prefLabel": "Other",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/descriptionType"
+    }
+  ]
+}

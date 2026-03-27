@@ -1,0 +1,228 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType",
+  "skos:prefLabel": "Relation Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: HeritageObject v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/iscitedby",
+      "skos:prefLabel": "IsCitedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/cites",
+      "skos:prefLabel": "Cites",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/iscollectedby",
+      "skos:prefLabel": "IsCollectedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/collects",
+      "skos:prefLabel": "Collects",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/issupplementto",
+      "skos:prefLabel": "IsSupplementTo",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/issupplementedby",
+      "skos:prefLabel": "IsSupplementedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/iscontinuedby",
+      "skos:prefLabel": "IsContinuedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/continues",
+      "skos:prefLabel": "Continues",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isdescribedby",
+      "skos:prefLabel": "IsDescribedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/describes",
+      "skos:prefLabel": "Describes",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/hasmetadata",
+      "skos:prefLabel": "HasMetadata",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/ismetadatafor",
+      "skos:prefLabel": "IsMetadataFor",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/hasversion",
+      "skos:prefLabel": "HasVersion",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isversionof",
+      "skos:prefLabel": "IsVersionOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isnewversionof",
+      "skos:prefLabel": "IsNewVersionOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/ispartof",
+      "skos:prefLabel": "IsPartOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/ispreviousversionof",
+      "skos:prefLabel": "IsPreviousVersionOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/ispublishedin",
+      "skos:prefLabel": "IsPublishedIn",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/haspart",
+      "skos:prefLabel": "HasPart",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isreferencedby",
+      "skos:prefLabel": "IsReferencedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/references",
+      "skos:prefLabel": "References",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isdocumentedby",
+      "skos:prefLabel": "IsDocumentedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/documents",
+      "skos:prefLabel": "Documents",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/iscompiledby",
+      "skos:prefLabel": "IsCompiledBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/compiles",
+      "skos:prefLabel": "Compiles",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isvariantformof",
+      "skos:prefLabel": "IsVariantFormOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isoriginalformof",
+      "skos:prefLabel": "IsOriginalFormOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isidenticalto",
+      "skos:prefLabel": "IsIdenticalTo",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isreviewedby",
+      "skos:prefLabel": "IsReviewedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/reviews",
+      "skos:prefLabel": "Reviews",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isderivedfrom",
+      "skos:prefLabel": "IsDerivedFrom",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/issourceof",
+      "skos:prefLabel": "IsSourceOf",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isrequiredby",
+      "skos:prefLabel": "IsRequiredBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/requires",
+      "skos:prefLabel": "Requires",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/isobsoletedby",
+      "skos:prefLabel": "IsObsoletedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/HeritageObject/relationType/obsoletes",
+      "skos:prefLabel": "Obsoletes",
+      "skos:inScheme": "https://heritagesamples.org/vocab/HeritageObject/relationType"
+    }
+  ]
+}

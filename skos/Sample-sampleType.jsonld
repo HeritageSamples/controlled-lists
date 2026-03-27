@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/sampleType",
+  "skos:prefLabel": "Sample Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/sampleType/borehole",
+      "skos:prefLabel": "Borehole",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/sampleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/sampleType/cross-section",
+      "skos:prefLabel": "Cross section",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/sampleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/sampleType/fragment",
+      "skos:prefLabel": "Fragment",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/sampleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/sampleType/scraping",
+      "skos:prefLabel": "Scraping",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/sampleType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/sampleType/thin-section",
+      "skos:prefLabel": "Thin section",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/sampleType"
+    }
+  ]
+}

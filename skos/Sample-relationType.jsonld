@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/relationType",
+  "skos:prefLabel": "Relation Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relationType/isdocumentedby",
+      "skos:prefLabel": "IsDocumentedBy",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relationType"
+    }
+  ]
+}

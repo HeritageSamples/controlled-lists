@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/descriptionType",
+  "skos:prefLabel": "Description Type",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/descriptionType/sample-description",
+      "skos:prefLabel": "Sample description",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/descriptionType/sampling-method",
+      "skos:prefLabel": "Sampling method",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/descriptionType/reason-for-sampling",
+      "skos:prefLabel": "Reason for sampling",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/descriptionType"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/descriptionType/other",
+      "skos:prefLabel": "Other",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/descriptionType"
+    }
+  ]
+}

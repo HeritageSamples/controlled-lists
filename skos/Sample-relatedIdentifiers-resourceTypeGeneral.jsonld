@@ -1,0 +1,192 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dc": "http://purl.org/dc/terms/"
+  },
+  "@type": "skos:ConceptScheme",
+  "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral",
+  "skos:prefLabel": "Resource Type General",
+  "dc:source": "Derived from HeritageSamples JSON Schema: Sample v0.9",
+  "skos:hasTopConcept": [
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/audiovisual",
+      "skos:prefLabel": "Audiovisual",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/book",
+      "skos:prefLabel": "Book",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/bookchapter",
+      "skos:prefLabel": "BookChapter",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/collection",
+      "skos:prefLabel": "Collection",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/computationalnotebook",
+      "skos:prefLabel": "ComputationalNotebook",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/conferencepaper",
+      "skos:prefLabel": "ConferencePaper",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/conferenceproceeding",
+      "skos:prefLabel": "ConferenceProceeding",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/datapaper",
+      "skos:prefLabel": "DataPaper",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/dataset",
+      "skos:prefLabel": "Dataset",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/dissertation",
+      "skos:prefLabel": "Dissertation",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/event",
+      "skos:prefLabel": "Event",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/image",
+      "skos:prefLabel": "Image",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/instrument",
+      "skos:prefLabel": "Instrument",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/interactiveresource",
+      "skos:prefLabel": "InteractiveResource",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/journal",
+      "skos:prefLabel": "Journal",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/journalarticle",
+      "skos:prefLabel": "JournalArticle",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/model",
+      "skos:prefLabel": "Model",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/outputmanagementplan",
+      "skos:prefLabel": "OutputManagementPlan",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/peerreview",
+      "skos:prefLabel": "PeerReview",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/physicalobject",
+      "skos:prefLabel": "PhysicalObject",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/preprint",
+      "skos:prefLabel": "Preprint",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/report",
+      "skos:prefLabel": "Report",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/service",
+      "skos:prefLabel": "Service",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/software",
+      "skos:prefLabel": "Software",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/sound",
+      "skos:prefLabel": "Sound",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/standard",
+      "skos:prefLabel": "Standard",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/studyregistration",
+      "skos:prefLabel": "StudyRegistration",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/text",
+      "skos:prefLabel": "Text",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/workflow",
+      "skos:prefLabel": "Workflow",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    },
+    {
+      "@type": "skos:Concept",
+      "@id": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral/other",
+      "skos:prefLabel": "Other",
+      "skos:inScheme": "https://heritagesamples.org/vocab/Sample/relatedIdentifiers-resourceTypeGeneral"
+    }
+  ]
+}
